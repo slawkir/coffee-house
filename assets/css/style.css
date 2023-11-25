@@ -93,6 +93,8 @@ legend {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   max-width: 1440px;
   margin: 0 auto;
   padding: 20px 40px 40px 40px;
@@ -187,4 +189,127 @@ header {
   letter-spacing: 0em;
   text-align: left;
   color: #E1D4C9;
+}
+
+.favorite {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  gap: 40px;
+}
+
+.favorite__title {
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #403F3D;
+}
+.favorite__title span {
+  color: #B0907A;
+  font-style: italic;
+}
+
+.favorite__slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.slider-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider__arrow-left {
+  width: 60px;
+  height: 60px;
+  background: url(../images/arrow-left.png);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider__item {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.slider__item__img {
+  width: 480px;
+  height: 480px;
+  background: url(../images/coffee-slider-1.png);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 480px;
+}
+
+.slider__item__title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #403F3D;
+}
+
+.slider__item__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #403F3D;
+}
+
+.slider__item__price {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #403F3D;
+}
+
+.slider__arrow-right {
+  width: 60px;
+  height: 60px;
+  background: url(../images/arrow-right.png);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider-pagination {
+  width: 144px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.slider-pagination__item {
+  width: 40px;
+  border: 2px solid #C1B6AD;
+}
+
+.pagination__item--active {
+  border: 2px solid #665F55;
 }/*# sourceMappingURL=style.css.map */
