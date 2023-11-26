@@ -1,0 +1,86 @@
+.mobile-app {
+  display: flex;
+  gap: 100px;
+}
+.offer {
+  display: flex;
+  align-items: center;
+  width: 630px;
+}
+.offer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.offer__title {
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #403F3D;
+
+  span {
+    font-style: italic;
+    color:#B0907A;
+  }
+}
+.offer__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.buttons-line {
+  display: flex;
+  gap: 20px;
+}
+.button-item {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 64px;
+  border: 1px solid#665F55;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.button-item__icon {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-left: 19px;
+}
+.button-item__description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.button-item__description__text {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #403F3D;
+
+}
+.button-item__description__title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #403F3D;
+}
+.mobile-screens {
+  width: 630px;
+  height: 630px;
+  background: url(../images/mobile-screens.png);
+}
