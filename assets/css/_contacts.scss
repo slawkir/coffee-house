@@ -1,0 +1,70 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  border-radius: 40px;
+  background: #665F55;
+  padding: 100px 370px 100px 100px;
+}
+.contacts__box-social {
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+  height: 250px;
+  gap: 40px;
+}
+.tagline {
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#E1D4C9;
+  
+  span {
+    font-style: italic;
+    color:#B0907A;
+  }
+
+}
+.social-networks {
+  display: flex;
+  gap: 12px;
+
+}
+.contacts__main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: #E1D4C9;
+  height: 186px;
+}
+.contacts__main__title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.contacts__main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.contacts__main__adress,
+.contacts__main__tel,
+.contacts__main__clock {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+a[href^="tel:"]  {
+  color: #E1D4C9;
+}

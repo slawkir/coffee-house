@@ -1,5 +1,7 @@
 .mobile-app {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 100px;
 }
 .offer {
