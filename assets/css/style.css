@@ -96,7 +96,6 @@ legend {
   display: flex;
   flex-direction: column;
   max-width: 1440px;
-  gap: 100px;
   margin: 0 auto;
   padding: 20px 40px 40px 40px;
   display: flex;
@@ -139,8 +138,14 @@ header {
   height: 28px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 20px 0 100px 0;
+}
+
 .header-hero {
-  margin-top: -80px;
   display: flex;
   align-items: center;
   width: 100%;
