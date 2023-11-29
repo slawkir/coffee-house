@@ -95,6 +95,11 @@
   background-size: cover;
   cursor: pointer;
 }
+.slider__arrow-left:hover,
+.slider__arrow-right:hover {
+  background-color:#665F55;
+  border-radius: 50%;
+}
 .slider-pagination {
   width: 144px;
   display: flex;

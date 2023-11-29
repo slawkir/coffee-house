@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>coffee-house</title>
+  <link rel="icon" href="./assets/images/coffee-latte-macciato.png">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,14 +40,16 @@
       </div>
     </header>
     <main>
-      <section class="header-hero">
-        <div class="header-hero__block">
-          <div class="header-block__title"><span>Enjoy</span> premium coffee at our charming cafe</div>
-          <div class="header-block__text">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting   space to enjoy their favorite beverage.</div>
-          <button>Menu</button>
+      <div class="enjoy">
+        <div class="enjoy__block">
+          <h1 class="enjoy__title"><span>Enjoy</span> premium coffee at our charming cafe</h1>
+          <div class="enjoy__text">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting   space to enjoy their favorite beverage.</div>
+          <div class="enjoy__btn">
+            <a href="./assets/pages/menu.html">Menu</a>
+          </div>
         </div>
-      </section>
-      <section class="favorite" id="favorite">
+      </div>
+      <div class="favorite" id="favorite">
         <div class="favorite__title">Choose your <span>favorite</span> coffee</div>
         <div class="favorite__slider">
           <div class="slider-line">
@@ -67,8 +70,8 @@
             <div class="slider-pagination__item"></div>
           </div>
         </div>
-      </section>
-      <section class="about" id="about">
+      </div>
+      <div class="about" id="about">
         <div class="about__title">Resource is <span>the perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</div>
         <div class="about__card-container">
           <div class="about__card-container__column">
@@ -80,8 +83,8 @@
             <div class="about__card-container__column__card--large"></div>
           </div>
         </div>
-      </section>
-      <section class="mobile-app" id="mobile-app">
+      </div>
+      <div class="mobile-app" id="mobile-app">
         <div class="offer">
           <div class="offer__container">
             <div class="offer__title"><span>Download</span> our apps to start ordering</div>
@@ -105,9 +108,9 @@
           </div>
         </div>
         <div class="mobile-screens"></div>
-      </section>
+      </div>
     </main>
-    <section class="contacts" id="contact-us">
+    <div class="contacts" id="contact-us">
       <div class="contacts__box-social">
         <div class="tagline">Sip, Savor, Smile. <span>It’s coffee time!</span></div>
         <div class="social-networks">
@@ -120,7 +123,9 @@
         <div class="contacts__main__title">Contact us</div>
         <div class="contacts__main-wrapper">
           <div class="contacts__main__adress">
-          <img src="./assets/images/pin-alt.png" alt="pin" class="contacts__main__adress__pin"> <span>8558 Green Rd., &nbsp;LA</span>
+            <a target="_blank" href="https://maps.app.goo.gl/DhBus4n7xaF66ahw5">
+              <img src="./assets/images/pin-alt.png" alt="pin" class="contacts__main__adress__pin"> <span>8558 Green Rd., &nbsp;LA</span>
+            </a>
         </div>
         <div class="contacts__main__tel">
           <img src="./assets/images/phone.png" alt="phone" class="contacts__main__adress__tel"> <a href="tel:+16035550123">+1 (603) 555-0123</a>
@@ -130,7 +135,7 @@
         </div>
         </div>
       </div>
-    </section>
+    </div>
   </div>
 </body>
 </html>
