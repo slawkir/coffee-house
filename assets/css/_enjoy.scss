@@ -1,5 +1,5 @@
 
-.header-hero {
+.enjoy {
   // margin-top: -80px;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
   background-size: cover;
   border-radius: 40px;
 }
-.header-hero__block  {
+.enjoy__block  {
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -19,14 +19,23 @@
   height: 444px;
   margin-left: 100px;
 
-  button {
+  .enjoy__btn {
     width: 200px;
     height: 64px;
     border-radius: 100px;
     background: #E1D4C9;
+    padding: 20px 78px;
+  }
+  .enjoy__btn::after {
+    margin-top: 5px;
+  content: url(../images/coffee-cup.png);
+  opacity: 0;
+  position: absolute;
+  right: 31%;
+  transition: opacity 0.6s ease-in-out;
   }
 }
-.header-block__title {
+.enjoy__title {
   font-family: Inter;
   color: #E1D4C9;
   font-size: 72px;
@@ -40,7 +49,7 @@
     color: #B0907A;
   }
 }
-.header-block__text {
+.enjoy__text {
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
